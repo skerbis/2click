@@ -92,7 +92,7 @@ Verschiebe den Inhalt von `src=` nach `data-src=` und füge ein leeres Attribut 
 
 ```html
 <iframe data-2click-type="google_maps" style="width: 100%; height: 600px;"
-    src="https://www.youtube-nocookie.com/embed/oHg5SJYRHA0" data-src="
+    data-src="https://www.youtube-nocookie.com/embed/oHg5SJYRHA0"
     frameborder="0" scrolling="no" allow="autoplay; encrypted-media" allowfullscreen>
 </iframe>
 ```
@@ -102,5 +102,10 @@ Verschiebe den Inhalt von `src=` nach `data-src=` und füge ein leeres Attribut 
 Zum Beispiel Twitter: 
 
 ```html
-<div data-2click-type="twitter" style="width: 100%; height: 600px;"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sorry losers and haters, but my I.Q. is one of the highest -and you all know it! Please don&#39;t feel so stupid or insecure,it&#39;s not your fault</p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/332308211321425920?ref_src=twsrc%5Etfw">May 9, 2013</a></blockquote><!-- Script-Bereich entfernen und stattdessen in den Callback legen --></div>
+<div data-2click-type="twitter" style="width: 100%; height: 600px;">
+    <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">Sorry losers and haters, but my I.Q. is one of the highest -and you all know it! Please don&#39;t feel so stupid or insecure,it&#39;s not your fault</p>&mdash; Donald J. Trump (@realDonaldTrump) 
+        <a href="https://twitter.com/realDonaldTrump/status/332308211321425920?ref_src=twsrc%5Etfw">May 9, 2013</a></blockquote>
+    <!-- Script-Bereich entfernen und stattdessen in den Callback legen -->
+</div>
 ```
